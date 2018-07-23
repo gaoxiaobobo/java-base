@@ -3,6 +3,7 @@ package com.xiaobo.jdk.lambda;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
+import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
 import static java.util.Arrays.asList;
@@ -13,6 +14,7 @@ import static java.util.Arrays.asList;
  */
 public class SortPeople {
     public static void main(String[] args) {
+//        Predicate p;
         Person[] people = {new Person("gxb", 33),
                 new Person("zxl", 34),
                 new Person("xy", 32)};
