@@ -1,1 +1,2 @@
 TEACHER_DEGREE
+fectch命令
